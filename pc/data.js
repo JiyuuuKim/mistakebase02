@@ -1645,7 +1645,7 @@ window.apnExeFile = {
             cx: 0,
             cy: 0,
           },
-          layout: { children: ["3840441A1_", "3840442A1_"] },
+          layout: { children: ["3840442A1_", "3840441A1_", "3843442A1_"] },
         },
         "3838306A1_": {
           module: "apn.CLayer",
@@ -1656,7 +1656,7 @@ window.apnExeFile = {
             cx: 0,
             cy: 0,
           },
-          layout: { children: ["3840530A1_", "3840568A1_"] },
+          layout: { children: ["3840568A1_", "3840530A1_", "3843458A1_"] },
         },
         "3838344A1_": {
           module: "apn.CLayer",
@@ -1667,7 +1667,7 @@ window.apnExeFile = {
             cx: 0,
             cy: 0,
           },
-          layout: { children: ["3840628A1_", "3840608A1_"] },
+          layout: { children: ["3840628A1_", "3840608A1_", "3843473A1_"] },
         },
         "3838364A1_": {
           module: "apn.CLayer",
@@ -1678,7 +1678,7 @@ window.apnExeFile = {
             cx: 0,
             cy: 0,
           },
-          layout: { children: ["3840660A1_", "3840650A1_"] },
+          layout: { children: ["3840660A1_", "3840650A1_", "3843488A1_"] },
         },
         "3838384A1_": {
           module: "apn.CLayer",
@@ -1689,7 +1689,7 @@ window.apnExeFile = {
             cx: 0,
             cy: 0,
           },
-          layout: { children: ["3840674A1_", "3840685A1_"] },
+          layout: { children: ["3840685A1_", "3840674A1_", "3843503A1_"] },
         },
         "3839993A1_": {
           module: "apn.CImage",
@@ -2530,12 +2530,136 @@ window.apnExeFile = {
             cy: 0,
           },
         },
+        "3843442A1_": {
+          module: "apn.CImage",
+          create: {
+            type: 16777728,
+            zIndex: 101330216,
+            data: {
+              properties: { attrs: { cfg: { mr: 0 } } },
+              wgtID: "apn.wgt.image2",
+              wgtTitle: "Image",
+              styles: {
+                mediaID: "RI85d3de8b74134ac39bea8d4d845a9f12_png",
+                C: 0,
+                A: "transparent",
+                a: false,
+              },
+            },
+          },
+          init: {
+            position: { x: 610, y: 90 },
+            shape: { type: 1, w: 699, h: 900 },
+            cx: 0,
+            cy: 0,
+          },
+        },
+        "3843458A1_": {
+          module: "apn.CImage",
+          create: {
+            type: 16777728,
+            zIndex: 101330217,
+            data: {
+              properties: { attrs: { cfg: { mr: 0 } } },
+              wgtID: "apn.wgt.image2",
+              wgtTitle: "Image",
+              styles: {
+                mediaID: "RId33dcf098cb74b07a0077e4f72d5aaaa_png",
+                C: 0,
+                A: "transparent",
+                a: false,
+              },
+              lockType: 0,
+            },
+          },
+          init: {
+            position: { x: 610, y: 90 },
+            shape: { type: 1, w: 699, h: 900 },
+            cx: 0,
+            cy: 0,
+          },
+        },
+        "3843473A1_": {
+          module: "apn.CImage",
+          create: {
+            type: 16777728,
+            zIndex: 101330218,
+            data: {
+              properties: { attrs: { cfg: { mr: 0 } } },
+              wgtID: "apn.wgt.image2",
+              wgtTitle: "Image",
+              styles: {
+                mediaID: "RIe2a3f49d12c7473faf1eafb27b95ba62_png",
+                C: 0,
+                A: "transparent",
+                a: false,
+              },
+              lockType: 0,
+            },
+          },
+          init: {
+            position: { x: 610, y: 90 },
+            shape: { type: 1, w: 699, h: 900 },
+            cx: 0,
+            cy: 0,
+          },
+        },
+        "3843488A1_": {
+          module: "apn.CImage",
+          create: {
+            type: 16777728,
+            zIndex: 101330219,
+            data: {
+              properties: { attrs: { cfg: { mr: 0 } } },
+              wgtID: "apn.wgt.image2",
+              wgtTitle: "Image",
+              styles: {
+                mediaID: "RI85ebd8f9062048958dac8c0828100cac_png",
+                C: 0,
+                A: "transparent",
+                a: false,
+              },
+              lockType: 0,
+            },
+          },
+          init: {
+            position: { x: 610, y: 90 },
+            shape: { type: 1, w: 699, h: 900 },
+            cx: 0,
+            cy: 0,
+          },
+        },
+        "3843503A1_": {
+          module: "apn.CImage",
+          create: {
+            type: 16777728,
+            zIndex: 101330220,
+            data: {
+              properties: { attrs: { cfg: { mr: 0 } } },
+              wgtID: "apn.wgt.image2",
+              wgtTitle: "Image",
+              styles: {
+                mediaID: "RI01aca69ed1c141cca8badb0ab1cf9cea_png",
+                C: 0,
+                A: "transparent",
+                a: false,
+              },
+              lockType: 0,
+            },
+          },
+          init: {
+            position: { x: 610, y: 90 },
+            shape: { type: 1, w: 699, h: 900 },
+            cx: 0,
+            cy: 0,
+          },
+        },
       },
       module: "apn.CFlowPage",
       BG: { fillStyle: "#ffffff" },
       SPT: {
         spt_EvtBubble:
-          'if (!Event.target) {\r\n  if (Event.type == "Page Create") {\r\n    onPageCreate();\r\n  } else if (Event.type == "Page Run") {\r\n    onPageRun();\r\n  } else if (Event.type == "Custom Event") {\r\n    onCustomEvent();\r\n  }\r\n} else {\r\n  var label = Event.target.get("label");\r\n  if (Event.type == "Tap Start") {\r\n    if (label.indexOf("btn$q") > -1) {\r\n      onClickButton();\r\n    } else if(label == "i$reset") {\r\n      reset();\r\n    }\r\n  } else if (Event.type == "Media") {\r\n    if (Event.param == "End") {\r\n      if (label.indexOf("v$video_") > -1) {\r\n        onEndVideo();\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\n// Page Craete\r\nfunction onPageCreate() {\r\n  onCustomProgressBar();\r\n  set("@charTimes", [2000, 3000, 3000, 2000, 3000]);\r\n}\r\n\r\n// Page Run\r\nfunction onPageRun() {\r\n  set("@types", {\r\n    명료: 0,\r\n    적극: 0,\r\n    유연: 0,\r\n    신중: 0,\r\n    온화: 0,\r\n  });\r\n  $W("i$char_", undefined, { multiple: true, like: true }).forEach(function (\r\n    char,\r\n    index\r\n  ) {\r\n    char.blink(get("@charTimes")[index], {\r\n      timing: "ease-in-out " + get("@charTimes")[index] + "ms",\r\n    });\r\n  });\r\n}\r\n\r\n// 답 선택\r\nfunction onClickButton() {\r\n  var label = Event.target.get("label");\r\n  var targetType = label.split("_")[1];\r\n  targetType.split(",").forEach(function (type) {\r\n    incrementKeyValue(type);\r\n  });\r\n  if (\r\n    label == "btn$q1-4_명료" ||\r\n    label == "btn$q1-4_적극" ||\r\n    label == "btn$q2-2_유연" ||\r\n    label == "btn$q2-3_신중" ||\r\n    label == "btn$q2-3_온화" ||\r\n    label == "btn$q3-3_신중" ||\r\n    label == "btn$q3-3_온화"\r\n  ) {\r\n    onComplete();\r\n  }\r\n}\r\n\r\n// 결과 도출\r\nfunction onComplete() {\r\n  var result = findMaxKey();\r\n  var ending = $W("mlc$ending");\r\n  $W("mlc$main").changeState("ending");\r\n  ending.changeState(result);\r\n  $W("v$video_" + result + "_1").changeState("Play");\r\n  $W("mlc$progress").set("visibility", "hidden");\r\n}\r\n\r\n// 비디오 끝난 뒤\r\nfunction onEndVideo() {\r\n  var split = Event.target.get("label").split("_");\r\n  if (split[2] == 1) {\r\n    Event.target.set("visibility", "hidden");\r\n    $W("v$video_" + split[1] + "_2").changeState("Play");\r\n  }\r\n}\r\n\r\n// 특정 키의 값을 +1 하는 함수\r\nfunction incrementKeyValue(key) {\r\n  var object = get("@types");\r\n  if (object && typeof object === "object" && object.hasOwnProperty(key)) {\r\n    object[key] += 1;\r\n  } else {\r\n    console.log("유효한 객체가 아니거나 해당 키는 객체에 존재하지 않습니다.");\r\n  }\r\n}\r\n\r\n// 객체에서 최대 값을 가지는 키를 찾는 함수\r\nfunction findMaxKey() {\r\n  var object = get("@types");\r\n  var maxKey = null;\r\n  var maxValue = -Infinity;\r\n  for (var key in object) {\r\n    if (object.hasOwnProperty(key)) {\r\n      if (object[key] > maxValue) {\r\n        maxValue = object[key];\r\n        maxKey = key;\r\n      }\r\n    }\r\n  }\r\n  return maxKey;\r\n}\r\n\r\n// 커스텀 이벤트\r\nfunction onCustomEvent() {\r\n  $W("mlc$progress").set("visibility", "visible");\r\n  var value = Event.param.split("|")[1];\r\n  var progress = document.getElementById("progress");\r\n  var nowValue = progress.value;\r\n  var additionalvalue = 1;\r\n  var id = setInterval(frame, 5);\r\n  function frame() {\r\n    if (progress.value < value) {\r\n      progress.value = progress.value + additionalvalue;\r\n    } else {\r\n      clearInterval(id);\r\n    }\r\n  }\r\n}\r\n\r\n// progressBar 디자인 변경\r\nfunction onCustomProgressBar() {\r\n  var css = `#progress {\r\n    appearance: none;\r\n    width : 100%;\r\n    height : 100%;\r\n    position : absolute;\r\n  }\r\n  #progress::-webkit-progress-bar {\r\n    background:#ffffff;\r\n    border-radius:0px;        \r\n  }\r\n  #progress::-webkit-progress-value {\r\n    border-radius:0px;\r\n    background: #000000;        \r\n  }\r\n  #totalProgress {\r\n    appearance: none;\r\n    width : 100%;\r\n  }\r\n  #totalProgress::-webkit-progress-bar {\r\n    background:#ffffff;\r\n    border-radius:0px;\r\n    border : none;\r\n  }\r\n  #totalProgress::-moz-progress-bar {\r\n    background:#ffffff;\r\n    border-radius:0px;\r\n    border : none;\r\n  }\r\n  #totalProgress::-webkit-progress-value {\r\n    border-radius:0px;\r\n    background: #000000;        \r\n  }\r\n  `;\r\n\r\n  var head = document.head || document.getElementsByTagName("head")[0];\r\n  var style = document.createElement("style");\r\n\r\n  head.appendChild(style);\r\n\r\n  style.type = "text/css";\r\n  if (style.styleSheet) {\r\n    // This is required for IE8 and below.\r\n    style.styleSheet.cssText = css;\r\n  } else {\r\n    style.appendChild(document.createTextNode(css));\r\n  }\r\n}\r\n\r\n/**\r\n * 위젯을 깜빡이게 함\r\n *\r\n * @param {int} delay 딜레이 (1/1000sec)\r\n * @param {object} param opacityTo param 객체   @nullable\r\n *\r\n */\r\nWidget.prototype.blink = function (delay, param) {\r\n  this.local.isBlink = !this.local.isBlink;\r\n  this.moveBy("", this.local.isBlink ? -50 : 50, param);\r\n  var wgt = this;\r\n  this.local.blinkTimeoutId = setTimeout(function () {\r\n    wgt.blink(delay, param);\r\n  }, delay);\r\n};\r\n\r\n/**\r\n * 위젯 깜빡임을 멈춤\r\n */\r\nWidget.prototype.stopBlink = function () {\r\n  if (this.local.blinkTimeoutId) {\r\n    clearTimeout(this.local.blinkTimeoutId);\r\n    this.local.blinkTimeoutId = undefined;\r\n  }\r\n\r\n  this.local.isBlink = undefined;\r\n  this.opacityTo(1);\r\n};\r\n',
+          'if (!Event.target) {\r\n  if (Event.type == "Page Create") {\r\n    onPageCreate();\r\n  } else if (Event.type == "Page Run") {\r\n    onPageRun();\r\n  } else if (Event.type == "Custom Event") {\r\n    onCustomEvent();\r\n  }\r\n} else {\r\n  var label = Event.target.get("label");\r\n  if (Event.type == "Tap Start") {\r\n    if (label.indexOf("btn$q") > -1) {\r\n      onClickButton();\r\n    } else if(label == "i$reset") {\r\n      reset();\r\n    }\r\n  } else if (Event.type == "Media") {\r\n    if (Event.param == "End") {\r\n      if (label.indexOf("v$video_") > -1) {\r\n        onEndVideo();\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\n// Page Craete\r\nfunction onPageCreate() {\r\n  onCustomProgressBar();\r\n  set("@charTimes", [2000, 3000, 3000, 2000, 3000]);\r\n}\r\n\r\n// Page Run\r\nfunction onPageRun() {\r\n  set("@types", {\r\n    명료: 0,\r\n    적극: 0,\r\n    유연: 0,\r\n    신중: 0,\r\n    온화: 0,\r\n  });\r\n  $W("i$char_", undefined, { multiple: true, like: true }).forEach(function (\r\n    char,\r\n    index\r\n  ) {\r\n    char.blink(get("@charTimes")[index], {\r\n      timing: "ease-in-out " + get("@charTimes")[index] + "ms",\r\n    });\r\n  });\r\n}\r\n\r\n// 답 선택\r\nfunction onClickButton() {\r\n  var label = Event.target.get("label");\r\n  var targetType = label.split("_")[1];\r\n  targetType.split(",").forEach(function (type) {\r\n    incrementKeyValue(type);\r\n  });\r\n  if (\r\n    label == "btn$q1-4_명료" ||\r\n    label == "btn$q1-4_적극" ||\r\n    label == "btn$q2-2_유연" ||\r\n    label == "btn$q2-3_신중" ||\r\n    label == "btn$q2-3_온화" ||\r\n    label == "btn$q3-3_신중" ||\r\n    label == "btn$q3-3_온화"\r\n  ) {\r\n    onComplete();\r\n  }\r\n}\r\n\r\n// 결과 도출\r\nfunction onComplete() {\r\n  var result = findMaxKey();\r\n  var ending = $W("mlc$ending");\r\n  $W("mlc$main").changeState("ending");\r\n  ending.changeState(result);\r\n  //$W("v$video_" + result + "_1").changeState("Play");\r\n  $W("mlc$progress").set("visibility", "hidden");\r\n}\r\n\r\n// 비디오 끝난 뒤\r\nfunction onEndVideo() {\r\n  var split = Event.target.get("label").split("_");\r\n  if (split[2] == 1) {\r\n    Event.target.set("visibility", "hidden");\r\n    $W("v$video_" + split[1] + "_2").changeState("Play");\r\n  }\r\n}\r\n\r\n// 특정 키의 값을 +1 하는 함수\r\nfunction incrementKeyValue(key) {\r\n  var object = get("@types");\r\n  if (object && typeof object === "object" && object.hasOwnProperty(key)) {\r\n    object[key] += 1;\r\n  } else {\r\n    console.log("유효한 객체가 아니거나 해당 키는 객체에 존재하지 않습니다.");\r\n  }\r\n}\r\n\r\n// 객체에서 최대 값을 가지는 키를 찾는 함수\r\nfunction findMaxKey() {\r\n  var object = get("@types");\r\n  var maxKey = null;\r\n  var maxValue = -Infinity;\r\n  for (var key in object) {\r\n    if (object.hasOwnProperty(key)) {\r\n      if (object[key] > maxValue) {\r\n        maxValue = object[key];\r\n        maxKey = key;\r\n      }\r\n    }\r\n  }\r\n  return maxKey;\r\n}\r\n\r\n// 커스텀 이벤트\r\nfunction onCustomEvent() {\r\n  $W("mlc$progress").set("visibility", "visible");\r\n  var value = Event.param.split("|")[1];\r\n  var progress = document.getElementById("progress");\r\n  var nowValue = progress.value;\r\n  var additionalvalue = 1;\r\n  var id = setInterval(frame, 5);\r\n  function frame() {\r\n    if (progress.value < value) {\r\n      progress.value = progress.value + additionalvalue;\r\n    } else {\r\n      clearInterval(id);\r\n    }\r\n  }\r\n}\r\n\r\n// progressBar 디자인 변경\r\nfunction onCustomProgressBar() {\r\n  var css = `#progress {\r\n    appearance: none;\r\n    width : 100%;\r\n    height : 100%;\r\n    position : absolute;\r\n  }\r\n  #progress::-webkit-progress-bar {\r\n    background:#ffffff;\r\n    border-radius:0px;        \r\n  }\r\n  #progress::-webkit-progress-value {\r\n    border-radius:0px;\r\n    background: #000000;        \r\n  }\r\n  #totalProgress {\r\n    appearance: none;\r\n    width : 100%;\r\n  }\r\n  #totalProgress::-webkit-progress-bar {\r\n    background:#ffffff;\r\n    border-radius:0px;\r\n    border : none;\r\n  }\r\n  #totalProgress::-moz-progress-bar {\r\n    background:#ffffff;\r\n    border-radius:0px;\r\n    border : none;\r\n  }\r\n  #totalProgress::-webkit-progress-value {\r\n    border-radius:0px;\r\n    background: #000000;        \r\n  }\r\n  `;\r\n\r\n  var head = document.head || document.getElementsByTagName("head")[0];\r\n  var style = document.createElement("style");\r\n\r\n  head.appendChild(style);\r\n\r\n  style.type = "text/css";\r\n  if (style.styleSheet) {\r\n    // This is required for IE8 and below.\r\n    style.styleSheet.cssText = css;\r\n  } else {\r\n    style.appendChild(document.createTextNode(css));\r\n  }\r\n}\r\n\r\n/**\r\n * 위젯을 깜빡이게 함\r\n *\r\n * @param {int} delay 딜레이 (1/1000sec)\r\n * @param {object} param opacityTo param 객체   @nullable\r\n *\r\n */\r\nWidget.prototype.blink = function (delay, param) {\r\n  this.local.isBlink = !this.local.isBlink;\r\n  this.moveBy("", this.local.isBlink ? -50 : 50, param);\r\n  var wgt = this;\r\n  this.local.blinkTimeoutId = setTimeout(function () {\r\n    wgt.blink(delay, param);\r\n  }, delay);\r\n};\r\n\r\n/**\r\n * 위젯 깜빡임을 멈춤\r\n */\r\nWidget.prototype.stopBlink = function () {\r\n  if (this.local.blinkTimeoutId) {\r\n    clearTimeout(this.local.blinkTimeoutId);\r\n    this.local.blinkTimeoutId = undefined;\r\n  }\r\n\r\n  this.local.isBlink = undefined;\r\n  this.opacityTo(1);\r\n};\r\n',
       },
     },
     S: {
